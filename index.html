@@ -103,6 +103,18 @@
 			margin: 8px 8px;
 			padding: 4px 4px;
 		}
+		.col-lg-6{
+			padding: 5px 0px;
+			margin: 2px 18px;
+		}
+		.form-group{
+			padding: 2px 4px;
+			margin: 2px 4px;
+		}
+		.input{
+			padding: 2px 4px;
+			margin: 2px 4px;
+		}
 
 	</style>
 </head>
@@ -552,49 +564,104 @@
 				</section>
 				<!-- End Blog Area -->
 
-				<div class="col-lg-6">
-					<div class="contact-us-form">
-						<h2>Fill the form to book an appointment</h2>
-						<p>You will recieve response in 24 hours</p>
-						<!-- Form -->
-						<form class="form"  action="https://api.web3forms.com/submit" method="POST">
-							<input type="hidden" name="access_key" value="853bbaa7-c798-4a59-aa75-c615270a9b99">
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="form-group">
-										<input type="text" name="name" placeholder="Name" required="">
+				<!-- Start Contact Us -->
+		<section class="contact-us section">
+			<div class="container">
+				<div class="inner">
+					<div class="row"> 
+						<div class="col-lg-6">
+							<!-- <div class="contact-us-left">
+								Start Google-map -->
+								<div id="myMap"></div>
+								<!--/End Google-map -->
+							</div> 
+						</div>
+						<div class="col-lg-6">
+							<div class="contact-us-form">
+								<h2>Fill the form to book an appointment</h2>
+								<p>You will recieve response in 24 hours</p>
+								<!-- Form -->
+								<form class="form"  action="https://api.web3forms.com/submit" method="POST">
+									<input type="hidden" name="access_key" value="853bbaa7-c798-4a59-aa75-c615270a9b99">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="form-group">
+												<input type="text" name="name" placeholder="Name" required="">
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="form-group">
+												<input type="email" name="email" placeholder="Email" required="">
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="form-group">
+												<input type="text" name="phone" placeholder="Phone" required="">
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="form-group">
+												<input type="text" name="subject" placeholder="Subject" required="">
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="form-group">
+												<textarea name="message" placeholder="Your Message" required=""></textarea>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="form-group login-btn">
+												<button class="btn" type="submit" onclick="alert('Appointement Request Sent')">Send</button>
+											</div>
+											
+										</div>
 									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="form-group">
-										<input type="email" name="email" placeholder="Email" required="">
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="form-group">
-										<input type="text" name="phone" placeholder="Phone" required="">
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="form-group">
-										<input type="text" name="subject" placeholder="Subject" required="">
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="form-group">
-										<textarea name="message" placeholder="Your Message" required=""></textarea>
-									</div>
-								</div>
-								<div class="col-12">
-									<div class="form-group login-btn">
-										<button class="btn" type="submit" onclick="alert('Appointement Request Sent')">Send</button>
-									</div>
-									
+								</form>
+								<!--/ End Form -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contact-info">
+					<div class="row">
+						<!-- single-info -->
+						<div class="col-lg-4 col-12 ">
+							<div class="single-info">
+								<i class="icofont icofont-ui-call"></i>
+								<div class="content">
+									<h3>+91 9175872438</h3>
+									<p> darshanasalve73@gmail.com</p>
 								</div>
 							</div>
-						</form>
-						<!--/ End Form -->
+						</div>
+						<!--/End single-info -->
+						<!-- single-info -->
+						<div class="col-lg-4 col-12 ">
+							<div class="single-info">
+								
+								<div class="content">
+									<h3>Kolhapur</h3>
+									<p>Both online and offline mode for councelling is available</p>
+								</div>
+							</div>
+						</div>
+						<!--/End single-info -->
+						<!-- single-info -->
+						<div class="col-lg-4 col-12 ">
+							<div class="single-info">
+								<i class="icofont icofont-wall-clock"></i>
+								<div class="content">
+									<h3>Mon - Sat: 11am - 6pm</h3>
+									<p>Sunday Closed</p>
+								</div>
+							</div>
+						</div>
+						<!--/End single-info -->
 					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Contact Us -->
 				</div>
 				<!-- End Appointment -->
 
